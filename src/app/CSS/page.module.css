@@ -1,0 +1,76 @@
+
+.cardContainer {
+  background-color: #21222a;
+  margin: 77px auto;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.info {
+  text-align: center;
+}
+.info img{
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom:10px ;
+}
+
+.info h4 {
+  color: rgb(86, 132, 232);
+  padding: 10px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.btns button {
+  width: calc(50% - 20px);
+  padding: 15px;
+  background-color: rgb(21, 89, 237);
+  border-radius: 6px;
+  border: none;
+}
+
+.btns button:first-child {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.about h2,
+.interests h2 {
+  padding: 10px 0;
+}
+
+.about p,
+.interests p {
+  line-height: 1.6;
+  font-size: 17px;
+  color: #777;
+}
+
+.interests p {
+  margin-bottom: 50px;
+}
+
+.footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #2f2f2f;
+  /* border-radius: 10px; */
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+}
+
